@@ -1,0 +1,35 @@
+body {
+    background-color: #fbe4ff; 
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0; 
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container h2 {
+    color: green; 
+}
+
+.btn {
+    margin-top: 20px; 
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto;
+}
+
+.btn:hover {
+    background-color: #ecd4ff;
+}
